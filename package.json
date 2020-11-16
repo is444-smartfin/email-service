@@ -1,0 +1,28 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ourfintech/email-service.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ourfintech/email-service/issues"
+  },
+  "homepage": "https://github.com/ourfintech/email-service#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mailgen": "^2.0.14",
+    "mailgun-js": "^0.22.0",
+    "nodemailer": "^6.4.16"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^3.1.0"
+  }
+}
